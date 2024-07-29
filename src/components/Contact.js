@@ -6,7 +6,6 @@ import PhoneForwardedIcon from '@mui/icons-material/PhoneForwarded';
 import Button from '@mui/material/Button';
 import EmailIcon from '@mui/icons-material/Email';
 import PinDropIcon from '@mui/icons-material/PinDrop';
-import Stack from '@mui/material/Stack';
 import '../Contact.css'; // Ensure this path is correct
 
 const SimpleAlert = () => (
@@ -153,11 +152,7 @@ const Contact = () => {
               ></textarea>
             </div>
             {formError && <p className="form-error">{formError}</p>}
-            <center>
-            <Stack spacing={2} direction="row">
-            <Button variant="contained" color="primary" startIcon={<Stack />}>  Submit </Button>
-            </Stack>
-            </center>
+            <center><button type="submit">Submit</button></center>
           </form>
         )}
       </section>
