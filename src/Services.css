@@ -1,0 +1,72 @@
+/* Services.css */
+
+/* General styles for the services page */
+.services-page {
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+}
+
+.services-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.service-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.service-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.service-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  color: #777;
+  line-height: 1.5;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .service-card {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  h3 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}

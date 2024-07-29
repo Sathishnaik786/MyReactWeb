@@ -1,38 +1,144 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Navbar styles */
+.navbar {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 0 20px;
+  background-color: white;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar-logo img {
+  height: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+.navbar-links li {
+  display: inline;
+}
+
+.navbar-links a {
+  color: black;
+  text-decoration: none;
+}
+
+.hamburger {
+  display: none;
+  color: black;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger div {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 4px;
+}
+
+/* Media Queries for Mobile */
+@media (max-width: 768px) {
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: white;
   }
-  to {
-    transform: rotate(360deg);
+
+  .navbar-links.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
   }
 }
+
+/*Start Footer page CSS Styling*/
+.footer {
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+  color: white;
+  padding: 0% 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.footer-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.footer-content {
+  margin-bottom: 20px;
+  animation: fadeIn 5s ease-in-out;
+}
+
+.footer-title {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.footer-description {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-icon {
+  color: white;
+  font-size: 1.5em;
+  transition: transform 0.3s;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+}
+
+.facebook:hover {
+  color: #3b5998;
+}
+
+.twitter:hover {
+  color: #1da1f2;
+}
+
+.instagram:hover {
+  color: #e4405f;
+}
+
+.linkedin:hover {
+  color: #0077b5;
+}
+
+.footer-bottom {
+  font-size: 0.9em;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/*End Footer page CSS Styling*/
+

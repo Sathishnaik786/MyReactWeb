@@ -1,0 +1,86 @@
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #333;
+  color: #fff; /* Set text color to white */
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.footer-section-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo img {
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+
+.footer-contact p {
+  margin: 5px 0;
+  color: #fff; /* Set text color to white */
+}
+
+.footer-section-2 ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section-2 ul li {
+  margin: 5px 0;
+}
+
+.footer-section-2 ul li a {
+  color: #fff; /* Set link color to white */
+  text-decoration: none;
+}
+
+.footer-section-2 ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-section-3 h3,
+.footer-section-3 input[type="email"],
+.footer-section-3 button {
+  color: #fff; /* Set text color to white */
+}
+
+.footer-section-3 input[type="email"] {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.footer-section-3 button {
+  padding: 5px 10px;
+}
+
+.footer-section-4 .social-links a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #fff; /* Set link color to white */
+  text-decoration: none;
+  font-size: 24px; /* Adjust the size of the icons */
+}
+
+.footer-section-4 .social-links a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-section {
+    flex: 1 100%;
+    text-align: center;
+  }
+}
