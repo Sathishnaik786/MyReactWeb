@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <div className="home">
       <header className="home-header">
-        <h2>Hello Sathish, Welcome to the Home Page</h2>
+        <h2>Welcome to the MeeCodex Solutions</h2>
       </header>
 
       <div className="home-content">
