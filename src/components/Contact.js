@@ -153,11 +153,7 @@ const Contact = () => {
               ></textarea>
             </div>
             {formError && <p className="form-error">{formError}</p>}
-            <center>
-            <Stack spacing={2} direction="row">
-            <Button variant="contained" color="primary" startIcon={<Stack />}>  Submit </Button>
-            </Stack>
-            </center>
+            <center><button type="submit">Submit</button></center>
           </form>
         )}
       </section>
