@@ -1,7 +1,6 @@
 import React from 'react';
 import 'swiper/swiper-bundle.css';
 import '../Home.css'; // Ensure this path is correct
-import logo from '../mee-logo.png'; // Update the path to your logo
 import ourMission from '../assest/images/Our Mission.jpg'; // Update the path to your images
 import aboutUs from '../assest/images/AboutUs.png'; // Update the path to your images
 import services from '../assest/images/Services.png'; // Update the path to your images
@@ -12,7 +11,6 @@ const Home = () => {
   return (
     <div className="home">
       <header className="home-header">
-        <img src={logo} alt="Home" className="logo" />
         <h2>Hello Sathish, Welcome to the Home Page</h2>
       </header>
 
