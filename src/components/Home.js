@@ -11,15 +11,8 @@ import AssociatedCompanies from '../components/AssociatedCompanies';
 const Home = () => {
   return (
     <div className="home">
-<<<<<<< HEAD
       <Carousel /><br />
       <AssociatedCompanies />
-=======
-      <header className="home-header">
-        <h1><b>Welcome to MeeCodex Solutions</b></h1>
-      </header>
-
->>>>>>> 2fbe3d525d7e2d315290dbe6bd6216dd30be6663
       <div className="home-content">
         <div className="home-section">
           <img src={ourMission} alt="Our Mission" className="home-section-image" />
