@@ -25,8 +25,8 @@ const MinimalCarousel = () => (
         alt="Second slide"
       />
       <Carousel.Caption>
-        <h3>Second slide label</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <h1><b>Welcome to MeeCodex Solutions</b></h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
@@ -36,8 +36,8 @@ const MinimalCarousel = () => (
         alt="Third slide"
       />
       <Carousel.Caption>
-        <h3>Third slide label</h3>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <h1><b>Welcome to MeeCodex Solutions</b></h1>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
       </Carousel.Caption>
     </Carousel.Item>
   </Carousel>

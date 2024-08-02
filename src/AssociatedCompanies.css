@@ -10,7 +10,8 @@
 
 .company-item {
   flex: 0 0 auto;
-  padding: 10px;
+  padding: 25px;
+  margin-right: 20px; /* Adjust spacing between items as needed */
 }
 
 .company-item img {
@@ -25,4 +26,9 @@
   100% {
     transform: translateX(-100%);
   }
+}
+
+/* Add this to stop animation on hover */
+.company-scroller:hover {
+  animation-play-state: paused;
 }
