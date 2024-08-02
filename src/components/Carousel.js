@@ -15,7 +15,7 @@ const MinimalCarousel = () => (
       />
       <Carousel.Caption>
         <h1><b>Welcome to MeeCodex Solutions</b></h1>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <p>At Meetech Solutions, innovation meets reliability, crafting the future of technology with precision and expertise.</p>
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
@@ -26,7 +26,7 @@ const MinimalCarousel = () => (
       />
       <Carousel.Caption>
       <h1><b>Welcome to MeeCodex Solutions</b></h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <p>Transforming challenges into opportunities, Meetech Solutions delivers tailored software solutions that drive growth and success.</p>
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
@@ -37,7 +37,7 @@ const MinimalCarousel = () => (
       />
       <Carousel.Caption>
       <h1><b>Welcome to MeeCodex Solutions</b></h1>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <p>With Meetech Solutions, excellence in technology is not just a promise—it's our commitment to every client we serve.</p>
       </Carousel.Caption>
     </Carousel.Item>
   </Carousel>

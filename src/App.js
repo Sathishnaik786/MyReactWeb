@@ -12,7 +12,7 @@ import './App.css'; // Ensure this path is correct
 const App = () => {
   return (
     <Router>
-      <Navbar /><br /><br /><br />
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
