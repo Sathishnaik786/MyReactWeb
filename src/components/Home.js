@@ -6,14 +6,13 @@ import aboutUs from '../assest/images/AboutUs.png'; // Update the path to your i
 import services from '../assest/images/Services.png'; // Update the path to your images
 import FAQ from './FAQ';
 import Testimonials from './Testimonials';
-
+import  Carousel  from './Carousel';
+import AssociatedCompanies from '../components/AssociatedCompanies';
 const Home = () => {
   return (
     <div className="home">
-      <header className="home-header">
-        <h2>Hello Sathish, Welcome to the Home Page</h2>
-      </header>
-
+      <Carousel /><br />
+      <AssociatedCompanies />
       <div className="home-content">
         <div className="home-section">
           <img src={ourMission} alt="Our Mission" className="home-section-image" />

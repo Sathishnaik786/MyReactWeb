@@ -6,7 +6,6 @@ import PhoneForwardedIcon from '@mui/icons-material/PhoneForwarded';
 import Button from '@mui/material/Button';
 import EmailIcon from '@mui/icons-material/Email';
 import PinDropIcon from '@mui/icons-material/PinDrop';
-import Stack from '@mui/material/Stack';
 import '../Contact.css'; // Ensure this path is correct
 
 const SimpleAlert = () => (

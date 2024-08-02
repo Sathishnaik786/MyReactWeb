@@ -1,0 +1,28 @@
+.associated-companies-container {
+  overflow: hidden;
+  width: 100%;
+}
+
+.company-scroller {
+  display: flex;
+  animation: scroll 30s linear infinite;
+}
+
+.company-item {
+  flex: 0 0 auto;
+  padding: 10px;
+}
+
+.company-item img {
+  width: 100px; /* Adjust size as needed */
+  height: auto;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

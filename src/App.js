@@ -8,10 +8,11 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import './App.css'; // Ensure this path is correct
 
+
 const App = () => {
   return (
     <Router>
-      <Navbar />
+      <Navbar /><br /><br /><br />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
